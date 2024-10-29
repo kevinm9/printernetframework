@@ -25,6 +25,7 @@ The main branch of this project is main.
 
 
 ***************************************
+problematica: se encontro logica con impresoras de ticker pero es muy engorroso para el cliente los pasos en esta solucion el cliente solo ejecuta un exe que es un servidor que escuchara el frotend que no esta en local si no en internet pero el pegare a los endpoint local ya q la aplicacion ejecutada es un pequeño servidor esuchando la peticon que en fronted haga 
 estan separados los proyectos solo tienes que unirse la idea es que se pueda comunicar el frotend con el cliente que esta en local , mediante esta conexion accedemos a la impresora
 alli estan las aplicaciones la cual es un servidor el cual escucha al frotend y el por dejabo puede consultar la impresora que tiene el cliente y devolver un json y la funcion para imprimir esta separada solo la unes y le envias los parametros pero ya esta creado el endpoint. 
 *************************************************
