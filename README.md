@@ -25,9 +25,9 @@ The main branch of this project is main.
 
 
 ***************************************
-problematica: se encontro logica con impresoras de ticker pero es muy engorroso para el cliente los pasos en esta solucion el cliente solo ejecuta un exe que es un servidor que escuchara el frotend que no esta en local si no en internet pero el pegare a los endpoint local ya q la aplicacion ejecutada es un pequeño servidor esuchando la peticon que en fronted haga 
-estan separados los proyectos solo tienes que unirse la idea es que se pueda comunicar el frotend con el cliente que esta en local , mediante esta conexion accedemos a la impresora
-alli estan las aplicaciones la cual es un servidor el cual escucha al frotend y el por dejabo puede consultar la impresora que tiene el cliente y devolver un json y la funcion para imprimir esta separada solo la unes y le envias los parametros pero ya esta creado el endpoint. 
+Problema: Se encontró una lógica con impresoras de tickets, pero es muy engorroso para el cliente seguir los pasos en esta solución. En esta nueva solución, el cliente solo ejecuta un archivo .exe que actúa como un servidor que escuchará al frontend, el cual no está en local, sino en internet. Sin embargo, se conectará a los endpoints locales, ya que la aplicación ejecutada es un pequeño servidor que escucha la petición que haga el frontend. Ambos proyectos están separados, pero solo hay que conectarlos. La idea es que el frontend se pueda comunicar con el cliente que está en local. Mediante esta conexión, se accede a la impresora; allí están las aplicaciones que, como servidor, escuchan al frontend. Luego, por debajo, se puede consultar la impresora que tiene el cliente y devolver un JSON. La función para imprimir está separada; solo la unes y le envías los parámetros, ya que el endpoint ya está creado.
+
+
 *************************************************
 
 Características
