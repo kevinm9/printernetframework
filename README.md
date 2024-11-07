@@ -27,6 +27,9 @@ The main branch of this project is main.
 ***************************************
 Problema: Se encontró una lógica con impresoras de tickets, pero es muy engorroso para el cliente seguir los pasos en esta solución. En esta nueva solución, el cliente solo ejecuta un archivo .exe que actúa como un servidor que escuchará al frontend, el cual no está en local, sino en internet. Sin embargo, se conectará a los endpoints locales, ya que la aplicación ejecutada es un pequeño servidor que escucha la petición que haga el frontend. Ambos proyectos están separados, pero solo hay que conectarlos. La idea es que el frontend se pueda comunicar con el cliente que está en local. Mediante esta conexión, se accede a la impresora; allí están las aplicaciones que, como servidor, escuchan al frontend. Luego, por debajo, se puede consultar la impresora que tiene el cliente y devolver un JSON. La función para imprimir está separada; solo la unes y le envías los parámetros, ya que el endpoint ya está creado.
 
+                Console.WriteLine("8. test de imprimir por kevin");
+
+
 
 *************************************************
 
